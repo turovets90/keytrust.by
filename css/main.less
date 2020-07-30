@@ -953,6 +953,8 @@ h2, .h2 ,h3, .h3{
 .building-works{
   position: relative;
   padding: 70px 0;
+  border-top:1px solid @color_brown;
+  border-bottom:1px solid @color_brown;
   @media (max-width:767px){
     padding: 30px 0;
   }
@@ -1336,7 +1338,7 @@ footer{
 
   .footer_content__weclome{
     font-family: @Liana;
-    font-size: 23px;
+    font-size: 25px;
     color: #252C2B;
     @media (min-width:1200px){
       text-align: center;
@@ -1884,4 +1886,28 @@ footer{
   }
 
 
+}
+
+
+.build_page{
+  @media(max-width:575px){
+    background: none !important;
+  }
+}
+.build_content{
+  position: relative;
+  p, div{
+    position: relative;
+
+  }
+}
+.img-build-mobile{
+  position: absolute;
+  right: -5%;
+  top: -20px;
+  @media(min-width:576px){
+    display: none;
+
+
+  }
 }
